@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { Wine, Grape, Star, Utensils, Users, Award, MessageCircle } from "lucide-react";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
@@ -144,7 +144,7 @@ export default function HomePage() {
           tag="What We Offer"
           tagIcon={Star}
           textboxLayout="default"
-          animationType="background-highlight"
+          animationType="slide-up"
           gridVariant="uniform-all-items-equal"
           features={[
             {
